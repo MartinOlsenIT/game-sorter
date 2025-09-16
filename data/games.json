@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Escape Dungeon",
+    "description": "Find your way out of the dungeon full of traps.",
+    "image": "https://placekitten.com/400/200",
+    "link": "#",
+    "year": 2021,
+    "genre": "Adventure"
+  },
+  {
+    "title": "Racing Legends",
+    "description": "Compete with players in high-speed street races.",
+    "image": "https://placebear.com/400/200",
+    "link": "#",
+    "year": 2022,
+    "genre": "Racing"
+  },
+  {
+    "title": "Zombie Survival",
+    "description": "Survive waves of zombies and upgrade your weapons.",
+    "image": "https://placehold.co/400x200",
+    "link": "#",
+    "year": 2020,
+    "genre": "Shooter"
+  },
+  {
+    "title": "Sky Warriors",
+    "description": "Take control of a fighter jet and dominate the skies.",
+    "image": "https://placehold.co/400x200/1a73e8/ffffff?text=Sky+Warriors",
+    "link": "#",
+    "year": 2023,
+    "genre": "Action"
+  },
+  {
+    "title": "Pixel Farm",
+    "description": "Grow crops, raise animals, and build your dream farm.",
+    "image": "https://placehold.co/400x200/ff9800/ffffff?text=Pixel+Farm",
+    "link": "#",
+    "year": 2022,
+    "genre": "Simulation"
+  }
+]
