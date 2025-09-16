@@ -1,10 +1,10 @@
 const container = document.getElementById('gameContainer');
 const yearFilter = document.getElementById('yearFilter');
+const genreFilter = document.getElementById('genreFilter');
 let allGames = [];
 
 
 fetch('./data/games.json')
-
   .then(response => response.json())
   .then(games => {
     allGames = games;
@@ -18,7 +18,16 @@ fetch('./data/games.json')
       yearFilter.appendChild(option);
     });
 
-    
+  
+    const genres = [...new Set(games.map(g => g.genre))].sort();
+    genres.forEach(genre => {
+      const option = document.createElement('option');
+      option.value = genre;
+      option.textContent = genre;
+      genreFilter.appendChild(option);
+    });
+
+  
     renderGames(games);
   })
   .catch(error => console.error("Error loading games:", error));
@@ -36,9 +45,7 @@ function renderGames(games) {
         <div class="game-title">${game.title} (${game.year})</div>
         <div class="game-description">${game.description}</div>
         <div class="game-genre">Genre: ${game.genre}</div>
-        <div class="game-buttons">
-          <button onclick="window.location.href='${game.link}'">Play</button>
-          <button>Details</button>
+    
         </div>
       </div>
     `;
@@ -46,13 +53,22 @@ function renderGames(games) {
   });
 }
 
-// Filter by year
-yearFilter.addEventListener('change', () => {
+function applyFilters() {
   const selectedYear = yearFilter.value;
-  if (selectedYear === "all") {
-    renderGames(allGames);
-  } else {
-    const filtered = allGames.filter(game => game.year == selectedYear);
-    renderGames(filtered);
+  const selectedGenre = genreFilter.value;
+
+  let filtered = allGames;
+
+  if (selectedYear !== "all") {
+    filtered = filtered.filter(game => game.year == selectedYear);
   }
-});
+
+  if (selectedGenre !== "all") {
+    filtered = filtered.filter(game => game.genre === selectedGenre);
+  }
+
+  renderGames(filtered);
+}
+
+yearFilter.addEventListener('change', applyFilters);
+genreFilter.addEventListener('change', applyFilters);

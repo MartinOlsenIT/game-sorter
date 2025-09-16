@@ -2,11 +2,44 @@
   {
     "title": "Escape Dungeon",
     "description": "Find your way out of the dungeon full of traps.",
-    "image": "https://placekitten.com/400/200",
+    "image": "https://placehold.co/400x200/8B4513/ffffff?text=Escape+Dungeon",
     "link": "#",
     "year": 2021,
     "genre": "Adventure"
   },
+  {
+    "title": "Lost Jungle",
+    "description": "Survive in the deep jungle and discover hidden temples.",
+    "image": "https://placehold.co/400x200/228B22/ffffff?text=Lost+Jungle",
+    "link": "#",
+    "year": 2020,
+    "genre": "Adventure"
+  },
+  {
+    "title": "Island Quest",
+    "description": "Explore mysterious islands full of secrets and puzzles.",
+    "image": "https://placehold.co/400x200/2E8B57/ffffff?text=Island+Quest",
+    "link": "#",
+    "year": 2022,
+    "genre": "Adventure"
+  },
+  {
+    "title": "Cavern Explorer",
+    "description": "Dive deep into dangerous caves in search of treasure.",
+    "image": "https://placehold.co/400x200/556B2F/ffffff?text=Cavern+Explorer",
+    "link": "#",
+    "year": 2019,
+    "genre": "Adventure"
+  },
+  {
+    "title": "Mystic Forest",
+    "description": "Wander through enchanted woods filled with mysteries.",
+    "image": "https://placehold.co/400x200/006400/ffffff?text=Mystic+Forest",
+    "link": "#",
+    "year": 2023,
+    "genre": "Adventure"
+  },
+
   {
     "title": "Racing Legends",
     "description": "Compete with players in high-speed street races.",
@@ -16,13 +49,79 @@
     "genre": "Racing"
   },
   {
+    "title": "Speed Rivals",
+    "description": "Test your driving skills against AI and friends.",
+    "image": "https://placehold.co/400x200/000000/ff0000?text=Speed+Rivals",
+    "link": "#",
+    "year": 2021,
+    "genre": "Racing"
+  },
+  {
+    "title": "Drift Kings",
+    "description": "Master the art of drifting and earn legendary status.",
+    "image": "https://placehold.co/400x200/444444/ffffff?text=Drift+Kings",
+    "link": "#",
+    "year": 2020,
+    "genre": "Racing"
+  },
+  {
+    "title": "Highway Storm",
+    "description": "Survive high-speed police chases on the open road.",
+    "image": "https://placehold.co/400x200/555555/ffffff?text=Highway+Storm",
+    "link": "#",
+    "year": 2019,
+    "genre": "Racing"
+  },
+  {
+    "title": "Nitro Boost",
+    "description": "Blast through circuits with nitro-powered cars.",
+    "image": "https://placehold.co/400x200/222222/00ff00?text=Nitro+Boost",
+    "link": "#",
+    "year": 2023,
+    "genre": "Racing"
+  },
+
+  {
     "title": "Zombie Survival",
     "description": "Survive waves of zombies and upgrade your weapons.",
-    "image": "https://placehold.co/400x200",
+    "image": " https://placehold.co/400x200/4B0082/ffffff?text=Zombie+Survival",
     "link": "#",
     "year": 2020,
     "genre": "Shooter"
   },
+  {
+    "title": "Alien Blaster",
+    "description": "Defend Earth from invading alien forces.",
+    "image": "https://placehold.co/400x200/800000/ffffff?text=Alien+Blaster",
+    "link": "#",
+    "year": 2019,
+    "genre": "Shooter"
+  },
+  {
+    "title": "Urban Warfare",
+    "description": "Battle enemies in close-quarters city combat.",
+    "image": "https://placehold.co/400x200/2F4F4F/ffffff?text=Urban+Warfare",
+    "link": "#",
+    "year": 2021,
+    "genre": "Shooter"
+  },
+  {
+    "title": "Sniper Elite Ops",
+    "description": "Take out targets from long range with precision.",
+    "image": "https://placehold.co/400x200/000080/ffffff?text=Sniper+Elite+Ops",
+    "link": "#",
+    "year": 2022,
+    "genre": "Shooter"
+  },
+  {
+    "title": "Mutant Outbreak",
+    "description": "Fight through a lab full of mutated horrors.",
+    "image": "https://placehold.co/400x200/FF4500/ffffff?text=Mutant+Outbreak",
+    "link": "#",
+    "year": 2023,
+    "genre": "Shooter"
+  },
+
   {
     "title": "Sky Warriors",
     "description": "Take control of a fighter jet and dominate the skies.",
@@ -32,11 +131,77 @@
     "genre": "Action"
   },
   {
+    "title": "Battle Bots",
+    "description": "Build and program your own robot fighter.",
+    "image": "https://placehold.co/400x200/666666/ffffff?text=Battle+Bots",
+    "link": "#",
+    "year": 2022,
+    "genre": "Action"
+  },
+  {
+    "title": "Street Fighter X",
+    "description": "Engage in 1v1 martial arts battles with style.",
+    "image": "https://placehold.co/400x200/8B0000/ffffff?text=Street+Fighter+X",
+    "link": "#",
+    "year": 2019,
+    "genre": "Action"
+  },
+  {
+    "title": "Rogue Agents",
+    "description": "Go undercover and complete high-risk missions.",
+    "image": "https://placehold.co/400x200/000000/ffffff?text=Rogue+Agents",
+    "link": "#",
+    "year": 2020,
+    "genre": "Action"
+  },
+  {
+    "title": "Titan Clash",
+    "description": "Battle colossal mechs in futuristic arenas.",
+    "image": "https://placehold.co/400x200/2F2F2F/ffffff?text=Titan+Clash",
+    "link": "#",
+    "year": 2021,
+    "genre": "Action"
+  },
+
+  {
     "title": "Pixel Farm",
     "description": "Grow crops, raise animals, and build your dream farm.",
     "image": "https://placehold.co/400x200/ff9800/ffffff?text=Pixel+Farm",
     "link": "#",
     "year": 2022,
     "genre": "Simulation"
+  },
+  {
+    "title": "City Builder 3000",
+    "description": "Design and manage the city of your dreams.",
+    "image": "https://placehold.co/400x200/333333/ffffff?text=City+Builder+3000",
+    "link": "#",
+    "year": 2020,
+    "genre": "Simulation"
+  },
+  {
+    "title": "Airline Manager",
+    "description": "Run your own airline company and expand globally.",
+    "image": "https://placehold.co/400x200/1E90FF/ffffff?text=Airline+Manager",
+    "link": "#",
+    "year": 2019,
+    "genre": "Simulation"
+  },
+  {
+    "title": "Life Simulator",
+    "description": "Experience a virtual life with endless possibilities.",
+    "image": "https://placehold.co/400x200/808080/ffffff?text=Life+Simulator",
+    "link": "#",
+    "year": 2021,
+    "genre": "Simulation"
+  },
+  {
+    "title": "Theme Park Tycoon",
+    "description": "Build roller coasters and run a theme park empire.",
+    "image": "https://placehold.co/400x200/FFD700/000000?text=Theme+Park+Tycoon",
+    "link": "#",
+    "year": 2023,
+    "genre": "Simulation"
   }
+
 ]
